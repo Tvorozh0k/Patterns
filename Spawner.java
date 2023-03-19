@@ -119,9 +119,17 @@ public class Main
 	public static void main(String[] args) 
 	{
 	    // Создание стандартных врагов
-		Spawner spawner = new Spawner();
+	    Spawner spawner = new Spawner();
 		
-		System.out.println("Внимание! Появился новый монстр:");
-		System.out.println(spawner.GetNewMob().toString());
+	    System.out.println("Внимание! Появился новый монстр:");
+	    System.out.println(spawner.GetNewMob().toString());
+		
+    	    /* Пример работы программы
+	
+	    Внимание! Появился новый монстр:
+            Name: ArmoredSkeleton
+            Hp: 25
+            Atk: 4
+            Speed: 1.3  */
 	}
 }
