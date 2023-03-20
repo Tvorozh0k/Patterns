@@ -128,14 +128,14 @@ public class Main
 		/* Пример работы программы
 	
 	    Внимание! Появился новый монстр:
-        Name: ArmoredSkeleton
-        Hp: 25
-        Atk: 4
-        Speed: 1.3  
+            Name: ArmoredSkeleton
+            Hp: 25
+            Atk: 4
+            Speed: 1.3  
         
-        Внимание! Появился новый монстр:
-        Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Случайно сгенерированное число вышло за преде�ы массива :(
-        at Spawner.GetNewMob(Main.java:113)
-        at Main.main(Main.java:126)            */
+            Внимание! Появился новый монстр:
+            Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Случайно сгенерированное число вышло за пределы массива :(
+            at Spawner.GetNewMob(Main.java:113)
+            at Main.main(Main.java:126)            */
 	}
 }
